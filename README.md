@@ -33,7 +33,6 @@ react-native link react-native-local-notifications
     <receiver android:process=":remote" android:name="com.github.wumke.RNLocalNotifications.AlarmReceiver" android:exported="true"></receiver>
     ```
 * In the MainActivity.java file of your android studio project add:
-  ```
   import android.app.NotificationManager;
   import android.content.Context;
   ...
