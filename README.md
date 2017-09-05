@@ -5,8 +5,8 @@ Manageable local notifications for React Native on iOS and Android. Create, upda
 
 ```bash
 npm install react-native-local-notifications
-```
 react-native link react-native-local-notifications
+```
 ```
 
 ####iOS
