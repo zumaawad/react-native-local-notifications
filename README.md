@@ -6,19 +6,7 @@ Manageable local notifications for React Native on iOS and Android. Create, upda
 ```bash
 npm install react-native-local-notifications
 ```
-
-Or add the latest version as dependeny to your package.json.
-
-```javascript
-{
-  "name": "YourProject",
-  ...
-  },
-  "dependencies": {
-    ...
-    "react-native-local-notifications": "0.1.0",
-    ...
-  }
+react-native link react-native-local-notifications
 ```
 
 ####iOS
@@ -46,6 +34,9 @@ Or add the latest version as dependeny to your package.json.
     ```
 * In the MainActivity.java file of your android studio project add:
   ```
+  import android.app.NotificationManager;
+  import android.content.Context;
+  ...
   @Override
       public void onResume() {
           super.onResume();
